@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Part 2</title>
+    <style>
+        h1{
+            font-size: 40px;
+            color: goldenrod;
+            font-weight: lighter;
+            text-decoration: line-through;
+            font-family: "Quicksand", sans-serif;
+            font-style:  italic;
+        }
+        p{
+            font-size: 25px;
+            text-decoration: underline;
+            color: aqua;
+            font-weight: bold;
+            line-height: 50px;
+            word-spacing: normal;
+            letter-spacing: 10px;
+        }
+        .selectors{
+            font-size: 30px;
+            color: green;
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+        .food{
+            font-style: italic;
+            text-decoration: inline;
+            color: black;
+
+        }
+        #boss{
+            font-size: 30px;
+            color: blue;
+            text-decoration: overline;
+            font-weight: bold;
+        }
+        p,h1,li{
+            border: 1px solid red;
+            
+        }
+
+    </style>
 </head>
 <body>
     <h1>Introduction To Css</h1>
     <p>
         Css(Cascading Sytle Sheet): is a styling language used to add style/ design to html code when creating a Web Pages. it works in conjuction with Html to define how elements like text, images and other contents are displayed on the pages
+    </p>
+
+    <p class="food">
+        What i wish to achieve after this CSS class: get into the tech word 
     </p>
     <h3>
         Ways To Write CSS
@@ -33,6 +83,24 @@
     <h4>
         External CSS: is the best way to write CSS. It is define in a seperate CSS file and linked to a Html document using the link tag. This method is ideal for styling multiple pages consistently. 
     </h4>
+    <div>
+        <a href="">
+            <i class="fa-solid fa-house"><br>home</i>
+        </a>
+        <a href="">
+            <i class="fa-solid fa-phone"><br>phone</i>
+        </a>
+        <a href="">
+            <i class="fa-solid fa-magnifying-glass"><br>search</i>
+        </a>
+        <a href="">
+            <i class="fa-regular fa-address-card"><br>address</i>
+        </a>
+    </div>
+    <h1 class="selectors">CSS selectors</h1>
+    <h1 id="bus">
+        ID Selector
+    </h1>
 
 
 
